@@ -14,6 +14,12 @@ function go() {
   window.location = get_random_link();
 }
 
+function handle(event) {
+  if (event.key === "Enter") {
+    go()
+  }
+}
+
 wiki_tag = "./wiki.yna";
 links = Get(wiki_tag).replace("​{choose:https:;}//en.wikipedia.org/wiki/{choose:", "").replace('{!!extend end pre=";" post="" public=true};}', "").split(";");
 console.log(links);
