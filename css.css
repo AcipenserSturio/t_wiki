@@ -43,6 +43,5 @@ body {
 }
 
 a, a:visited {
-    font-weight: bold;
     color: inherit;
 }
