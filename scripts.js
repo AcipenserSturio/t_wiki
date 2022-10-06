@@ -14,6 +14,6 @@ function go() {
   window.location = get_random_link();
 }
 
-wiki_tag = "./wiki.yna"
-links = Get(wiki_tag).replace("​{choose:https:;}//en.wikipedia.org/wiki/{choose:", "").replace("{!!extend end pre=";" post="" public=true};}", "").split(";")
-console.log(links)
+wiki_tag = "./wiki.yna";
+links = Get(wiki_tag).replace("​{choose:https:;}//en.wikipedia.org/wiki/{choose:", "").replace('{!!extend end pre=";" post="" public=true};}', "").split(";");
+console.log(links);
