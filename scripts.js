@@ -7,7 +7,7 @@ function Get(yourUrl) {
 }
 
 function get_random_link() {
-  return links[Math.floor(Math.random() * links.length)];
+  return "https://en.wikipedia.org/wiki/" + links[Math.floor(Math.random() * links.length)];
 }
 
 function go() {
