@@ -16,7 +16,7 @@ body {
     max-width: 800px;
     height: 100%;
     display: table;
-	font-size: 150%;
+	font-size: 120%;
 }
 .wrapper {
     vertical-align: middle;
@@ -24,8 +24,8 @@ body {
     text-align: center;
 }
 .button {
-    padding: 30px 60px;
-    border-radius: 70px;
+    padding: 20px 50px;
+    border-radius: 50px;
     background-color: var(--shade-color);
     font-weight: bold;
     transition: 150ms linear;

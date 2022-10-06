@@ -16,7 +16,9 @@ function go() {
 
 function handle(event) {
   if (event.key === "Enter") {
-    go()
+    button = document.getElementById("button");
+    button.focus();
+    button.click();
   }
 }
 
